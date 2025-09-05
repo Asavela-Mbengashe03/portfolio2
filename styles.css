@@ -98,18 +98,22 @@ label:hover{
   width: 100%;
   height: 220px;
   border-radius: 4%;
-  background: rgb(247, 227, 191);
+  border: rgb(238, 201, 131) 1px solid;
   display: flex;
+  color: rgb(255, 255, 255);
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease, background 0.3s ease;
 }
-.div-grid div:hover {
-  color:  rgb(25, 57, 145);
-;
+.div-grid div:hover {   
+  background: rgb(236, 209, 159);
   transform: translateY(-10px);
   cursor: pointer;  
+}
+.div-grid div p:hover{
+  color: #000;
+  cursor: pointer;
 }
 .div-grid i {
   color: rgb(25, 57, 145);
@@ -132,7 +136,7 @@ label:hover{
 }
 
 .container2{
-  background: rgb(25, 57, 145);
+  background: #127cb9;
 }
 .skills-wrapper {
   
@@ -154,7 +158,7 @@ label:hover{
 }
 
 .skill i {
-  color: #03B39F;
+  color: #127cb9;
   font-size: 60px;
   cursor: pointer;
 }
@@ -227,14 +231,16 @@ label:hover{
   text-align: center;
   font-size: 2.5rem;
   padding-bottom: 20px;
+  color: rgb(235, 235, 235);
 }
 .container2 p {
   font-size: 1.2rem;
   text-align: center;
   margin-top: -10px;
+  color: rgb(255, 255, 255);
 }
 .exp {
-  background: rgb(0, 136, 102);
+  background: #127cb9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -276,7 +282,7 @@ label:hover{
 
 .projects {
   padding: 40px 0;
-  background-image: url(/images/shapes_symbols_abstraction_214189_1280x720.jpg);
+  background:#127cb9;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -286,7 +292,6 @@ label:hover{
   color: rgb(255, 207, 119);
   font-size: 1.7rem;
   text-align: center;
-  box-shadow: inset 0 0 0 1000px rgba(0,  0, 0, 0.5); /* Dark overlay */
 }
 .projects h1 {
   font-size: 3rem;
@@ -304,7 +309,7 @@ label:hover{
   gap: 32px;
 }
 .row {
-  background: rgb(238, 201, 131);
+  background: rgb(236, 209, 159);
   border-radius: 16px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.12);
   width: 320px;
@@ -328,12 +333,12 @@ label:hover{
 .row h3 {
   margin: 10px 0 8px 0;
   font-size: 1.3rem;
-  color: rgb(238, 201, 131);
+  color: #127cb9;
 }
 .row p {
   font-size: 1rem;
   margin-bottom: 16px;
-  color: #222;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 .row button {
@@ -412,7 +417,7 @@ label:hover{
   margin: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 60px;
 }
 .certs img:hover {
   transform: scale(1.05);
