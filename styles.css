@@ -5,6 +5,9 @@ html {
   background-repeat: no-repeat;
   background-position: center;  
 }
+.container h1{
+  font-size: clamp(3rem, 7vw, 5rem);
+}
 body,.container{
 background: rgb(247, 227, 191);
 }
@@ -271,11 +274,12 @@ label:hover{
 
 }
 .exp img {
-  width: 350px;
-  height: 160px;
+  width: clamp(250px, 35vw, 350px);
+  height: clamp(120px, 16vw, 160px);
   object-fit: cover;
   border-radius: 12px;
   margin: 10px;
+  margin-left: 15px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
   display: inline-block;
 }
